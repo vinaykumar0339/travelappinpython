@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='cart.css') }}">
+    <title>My Cart</title>
+</head>
+<body>
+<header class="header">
+        <div class="container">
+            <a href="/" class="logo">Travel Guide</a>
+            <nav class="nav">
+                {% if session['role'] == 'user' or session['role'] == 'admin' %}
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/destinations">Destinations</a>
+                    <a class="nav-link" href="/hotels_display">Hotels</a>
+                    <a class="nav-link" href="/cart">My Cart</a>
+                    <a class="nav-link" href="/profile">Profile</a>
+                    <a class="nav-link signout" href="/signout">Signout</a>
+                {% else %}
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/destinations">Destinations</a>
+                    <a class="nav-link" href="/signin">Sign In</a>
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>My Cart</h1>
+        <div class="destinations-list">
+            {% for place in cart_items %}
+                <div class="destination-card">
+                    <img src="{{ place[3] }}" class="card-img-top" alt="{{ place[0] }}">
+                    <h2>{{ place[0] }}</h2>
+                    <p>{{ place[1] }}</p>
+                    <p>{{ place[2] }}</p>
+                    <!-- Remove from Cart Button -->
+                    <form action="/cart/remove/{{ place[6] }}" method="POST">
+                        <button type="submit" class="remove-btn">Remove from Cart</button>
+                    </form>
+                </div>
+            {% else %}
+                <p>No items in the cart.</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

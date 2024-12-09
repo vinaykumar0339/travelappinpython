@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7ccfa2;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #7ccfa2;
+    border-radius: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .navbar-brand:hover {
+    color: white; /* Change to white on hover */
+}
+
+
+.navbar .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Added transition for smooth effect */
+}
+
+.navbar .nav-link:hover {
+    color: white; /* Change to the desired hover color */
+}
+
+
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.mybutton {
+color: white;
+background:#7ccfa2;
+outline: none;
+border: none;
+padding: 10px;
+border-radius: 10px;
+font-weight:bold;
+}
+
+.btn-primary:hover {
+    background-color:  #7ccfa2;
+    border-color:  #7ccfa2;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+}
+
+.text-center a {
+    color: #7ccfa2;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.text-center a:hover {
+    color: #5ab68e;
+    text-decoration: underline;
+}

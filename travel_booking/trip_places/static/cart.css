@@ -1,0 +1,140 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7ccfa2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background-color: #7ccfa2;
+    color: white;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.header .logo:hover {
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.header .nav .nav-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.header .nav .nav-link:hover,
+.header .nav .nav-link:focus,
+.header .nav .nav-link:active {
+    color: white;
+    background-color: black;
+}
+
+
+
+/* Container for the cart items */
+.container {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Destinations list styling */
+.destinations-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Destination card styling */
+.destination-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 300px;
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Hover effect for destination card */
+.destination-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+/* Image styling */
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Ensures the image fills the card width */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures images maintain aspect ratio while covering the dimensions */
+}
+
+/* Destination card title */
+.destination-card h2 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Destination card details */
+.destination-card h3, .destination-card h4 {
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+/* Remove button styling */
+.destination-card .remove-btn {
+    background-color: #7ccfa2; /* Your hex color */
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width for a cleaner layout */
+    margin-top: 1rem;
+}
+
+/* Hover effect for remove button */
+.destination-card .remove-btn:hover {
+    background-color: #66b18e; /* Darker shade on hover */
+}
+
+/* No items message */
+.destinations-list p {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}

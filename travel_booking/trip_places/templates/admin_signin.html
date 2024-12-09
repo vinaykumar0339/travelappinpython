@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Signin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signin.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background-color: #7ccfa2; /* Same as the signup page */
+        }
+        .navbar .nav-link {
+            color: black; /* Match link color from signup page */
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .form-container {
+            background-color: #d3d3d3; /* Match background color from signup page */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+        .mybutton {
+            background-color: #7ccfa2; /* Match button color from signup page */
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .mybutton:hover {
+            background-color: #66b18e; /* Button hover color same as signup */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand text-black" href="/">Travel Guide</a> <!-- Updated branding name -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/destinations">Destinations</a> <!-- Changed 'Courses' to 'Destinations' -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signin">Signin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Signup</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Flash message section -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        {% for message in messages %}
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-container">
+                    <h2 class="text-center">Admin SIGNIN</h2>
+                    <form action="/admin_signin" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
+                            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="text-center">
+                            <a href="/signin">login as user</a>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button type="submit" class="mybutton">Signin as Admin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

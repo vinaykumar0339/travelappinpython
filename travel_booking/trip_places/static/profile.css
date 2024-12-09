@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.header {
+    background: #7ccfa2;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%; /* Ensure the header spans the full width of the viewport */
+    top: 0;
+    z-index: 1000;
+}
+
+.header .container {
+    max-width: 100%; /* Remove width constraints */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding for a neat look */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.profile-container {
+    margin-top: 80px; /* Account for the fixed header height */
+    padding: 20px;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.profile-details {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.booking-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.booking-item h5 {
+    margin-bottom: 8px;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}

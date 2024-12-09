@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Search Results</title>
+</head>
+<body>
+    <h1>Search Results for "{{ search_term }}"</h1>
+    {% if hotels %}
+        <ul>
+            {% for hotel in hotels %}
+                <li>
+                    <strong>{{ hotel[1] }}</strong> - {{ hotel[2] }}<br>
+                    Attraction: {{ hotel[3] }}<br>
+                    Price: ₹{{ hotel[4] }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No hotels found for "{{ search_term }}".</p>
+    {% endif %}
+</body>
+</html>

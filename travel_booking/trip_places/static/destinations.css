@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7ccfa2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #7ccfa2;
+    border-radius: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #7ccfa2; /* Your hex color */
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: white; /* Change to white on hover */
+}
+
+.navbar .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    color: #7ccfa2; /* Your hex color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #66b18e; /* Darker shade on hover */
+}
+
+h1 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card-title a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: #66b18e;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Ensures the image fills the card width */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures images maintain aspect ratio while covering the dimensions */
+}
+
+.mybutton {
+    background-color: #7ccfa2; /* Your hex color */
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.mybutton:hover {
+    background-color: #66b18e; /* Darker shade on hover */
+}
+
+.text-center a {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.text-center a:hover {
+    color: #5ea885;
+    text-decoration: underline;
+}
+
+.alert {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.alert-dismissible .close {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.place-location .badge {
+    background-color: #7ccfa2; /* Your hex color for the location badge */
+    color: black; /* Adjust text color if needed */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the Explore Hotels button */
+.hotels-section .btn-primary {
+    background-color: #7ccfa2 !important; /* Main hex color */
+    color: black !important; /* Text color */
+    border: 2px solid white !important; /* White border */
+    font-weight: bold;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover state */
+.hotels-section .btn-primary:hover {
+    background-color: #66b18e !important; /* Slightly darker shade of your hex color */
+    color: white !important; /* Text color on hover */
+    border-color: #66b18e !important; /* Border color matching hover background */
+}
+
+/* Active and focus states */
+.hotels-section .btn-primary:active,
+.hotels-section .btn-primary:focus {
+    background-color: #66b18e !important; /* Same as hover color */
+    color: white !important; /* Text color */
+    border-color: #66b18e !important; /* Consistent border color */
+    box-shadow: none !important; /* Remove Bootstrap default shadow */
+    outline: none !important; /* Remove outline */
+}

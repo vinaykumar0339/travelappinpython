@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning - Hotels</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='hotels.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Travel Planner</a>
+            <nav class="nav">
+                {% if session['role'] == 'user' or session['role'] == 'admin' %}
+                    <a class="nav-link" href="/home">Home</a>
+                    <a class="nav-link" href="/destinations">Destinations</a>
+                    <a class="nav-link" href="/hotels_display">Hotels</a>
+                    <a class="nav-link" href="/cart">My Cart</a>
+                    <a class="nav-link" href="/profile">Profile</a>
+                    <a class="nav-link signout" href="/signout">Signout</a>
+                {% else %}
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/destinations" class="nav-link">Destinations</a>
+                    <a href="/hotels_display" class="nav-link">Hotels</a>
+                    <a href="/signin" class="nav-link signin">Sign In</a>
+                    <a href="/signup" class="nav-link signup">Sign Up</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <section class="places-section">
+        <div class="container">
+            <h2>Stay somewhere great</h2>
+            <div class="places-container">
+                {% for hotel in hotels %}
+                    <div class="place-card">
+                        <img src="{{ url_for('static', filename='images/hotel.jpg') }}" alt="{{ hotel.name }}">
+                        <h3>{{ hotel.name }}</h3>
+                        <p>{{ hotel.location }}</p>
+                        <p>{{ hotel.price_per_night }} per night</p>
+                    </div>
+                    {% if session['role'] == 'admin' %}
+                        <form method="POST" action="/hotels/remove/{{ hotel.id }}">
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <main class="hero">
+        <div class="container">
+            <h1>Find Your Perfect Stay</h1>
+            <form method="post" action="/hotel_search">
+                <div class="input-wrapper">
+                    <input type="text" name="search" placeholder="Places to go, things to do, hotels..." required>
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.nav-link {
+    color: #555;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Search Section */
+section.bg-light {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    padding: 50px 0;
+}
+
+section h2 {
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+form .form-control {
+    border-radius: 0.5rem;
+}
+
+form .btn {
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Results Section */
+section.py-5 {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.card {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+}

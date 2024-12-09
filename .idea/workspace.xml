@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54fbf79d-5332-4482-bed1-7e67b64f562f" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/Colosseum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/acropolis_of_athens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/angkor_wat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/banff_national_park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/big_ben.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/burj_khalifa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/chichen_itza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/christ_the_redeemer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/galapagos_islands.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/golden_gate_bridge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/grand_canyon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/great_barrier_reef.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/great_wall_of_china.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/machu_picchu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/mount_everest_base_camp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/mount_fuji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/niagara_falls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/petra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/plitvice_lakes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/pyramids_of_giza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/santorini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/statue_of_liberty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/stonehenge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/sydney_opera_house.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/taj_mahal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/the_alhambra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/the_blue_lagoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/the_louvre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/venice_canals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/images/victoria_falls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/search_hotels.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/book_hotel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/booking_confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/hotel_display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/hotel_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/hotels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/search_hotels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/update_hotel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/db/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/trip_places/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/trip_places/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/trip_places/static/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/trip_places/static/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/trip_places/static/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/trip_places/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_booking/trip_places/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel_booking/trip_places/templates/signin.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/travel_booking/trip_places" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2hAyixXVBwt4O3VYsxyRCQPjxm9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manasa/PycharmProjects/pythonProject1&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manasa\PycharmProjects\Skillbridge" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Skillbridge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/travel_booking/trip_places" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/travel_booking/trip_places/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CourseHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task 10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CourseHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task 9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CourseHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task 9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.task 9" />
+        <item itemvalue="Python.task 10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54fbf79d-5332-4482-bed1-7e67b64f562f" name="Changes" comment="" />
+      <created>1717051309592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717051309592</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updated">
+      <created>1725428972234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725428972234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="f41929ad-aece-4281-8c79-ac33fb37cbd8">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

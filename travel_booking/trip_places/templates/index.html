@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Travel Guide</a>
+            <nav class="nav">
+                {% if session['role'] == 'user' or session['role'] == 'admin' %}
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/destinations">Destinations</a>
+                    <a class="nav-link" href="/hotels_display">Hotels</a>
+                    <a class="nav-link" href="/cart">My Cart</a>
+                    <a class="nav-link" href="/profile">Profile</a>
+                    <a class="nav-link signout" href="/signout">Signout</a>
+                {% else %}
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/destinations">Destinations</a>
+                    <a class="nav-link" href="/signin">Sign In</a>
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+
+    <!-- Search bar section -->
+    <main class="hero">
+        <div class="container">
+            <h1 class="hero-title transparent-text">Welcome to Travel Guide</h1>
+            <p class="hero-subtitle transparent-text">Adventure awaits... Start planning your perfect journey!</p>
+            <form method="post" action="/" class="search-form" onsubmit="return validateForm()">
+                <div class="input-wrapper">
+                    <input type="text" name="search" placeholder="Places to go, things to do, hotels..." id="search-input" required />
+                    <button type="submit" class="search-btn">Search</button>
+                </div>
+                <div class="search-options">
+                    <a href="/" class="nav-link">Places</a>
+                    <a href="/hotel_search" class="nav-link">Hotels</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Travel Guide - All Rights Reserved</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function validateForm() {
+            var searchInput = document.getElementById('search-input').value;
+            if (searchInput.trim() === "") {
+                alert("Please enter a search term.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

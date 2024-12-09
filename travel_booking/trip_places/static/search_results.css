@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Montserrat:wght@100;300&display=swap');
+/* Base styles */
+html, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3, h4 {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f5f5f5;
+}
+.navbar {
+    background: rgba(124, 207, 162, 0.8); /* Updated to use #7ccfa2 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .nav-link {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    outline: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.form-control {
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.25rem;
+    padding-right: 2.5rem;
+    position: relative;
+    font-weight: bold;
+}
+.form-control:focus {
+    border-color: #7ccfa2; /* Border color when input is focused */
+    box-shadow: 0 0 0 0.2rem rgba(124, 207, 162, 0.25); /* Shadow color when input is focused */
+    outline: none;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #7ccfa2;
+    border-color: #7ccfa2;
+    color: #000;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #66b18e;
+    border-color: #66b18e;
+}
+.book {
+    width: 14rem;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 25px !important;
+}
+.book .card-title {
+    font-family: inherit !important;
+}
+.card.course {
+    margin-bottom: 20px;
+}
+.card-body {
+header {
+    background-color: #003580;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
+.coursedesc {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+.badge-primary {
+    background-color: #7ccfa2;
+}
+.btn-outline-warning {
+    color: #7ccfa2;
+    border-color: #7ccfa2;
+}
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #7ccfa2;
+    border-color: #7ccfa2;
+}
+.clear-btn {
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 0px; /* Adjusted positioning */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #aaa;
+    transition: color 0.3s ease;
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.clear-btn:hover,
+.clear-btn:focus {
+    color: #333;
+    outline: none;
+form input, form button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+/* Horizontal layout for places */
+.places-container {
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap; /* Ensure wrapping */
+    justify-content: space-between; /* Space between cards */
+    gap: 20px; /* Adds space between cards */
+}
+.place-item {
+    flex: 1 1 30%; /* Each card takes 30% of the container width */
+    margin: 10px; /* Space around each card */
+    max-width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for cards */
+    transition: 0.3s; /* Smooth hover effect */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hotel-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.place-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Hover effect */
+.hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-img-top {
+    height: 200px; /* Set image height */
+    object-fit: cover; /* Ensure image fits */
+.hotel-card a {
+    color: #003580;
+    text-decoration: none;
+}

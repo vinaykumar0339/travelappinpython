@@ -1,0 +1,43 @@
+/* Navbar background */
+.navbar {
+    background-color: #7ccfa2;
+}
+
+/* Navbar brand text */
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #68b38b;
+}
+
+/* Customize any buttons on this page */
+button, .btn {
+    background-color: #7ccfa2;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #68b38b;
+}
+
+/* Place details style */
+.place-details h2 {
+    color: #333;
+}
+
+.place-details p {
+    font-size: 1rem;
+    color: #555;
+}
+

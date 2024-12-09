@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7ccfa2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    border-radius: 0;
+    padding: 1rem;
+    background-color: #7ccfa2; /* Updated background color */
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar .navbar-brand:hover {
+    color: white; /* Change to white on hover */
+}
+
+.navbar .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Added transition for smooth effect */
+}
+
+.navbar .nav-link:hover {
+    color: white; /* Change to white on hover */
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #7ccfa2; /* Updated background color */
+    border-color: #7ccfa2; /* Updated border color */
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #5ea885; /* Change to darker green on hover */
+    border-color: #5ea885; /* Change to darker green on hover */
+}
+
+.text-center a {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.text-center a:hover {
+    color: #5ea885; /* Change to darker green on hover */
+    text-decoration: underline;
+}
+
+.alert {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.alert-dismissible .close {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.mybutton {
+    color: black;
+    background: #7ccfa2; /* Updated background color */
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}

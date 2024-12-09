@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ place.name }} Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='destinations.css') }}">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+            <a class="navbar-brand" href="/">Travel Guide</a>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="/">Home</a>
+                <a class="nav-item nav-link" href="/destinations">Destinations</a>
+                <a class="nav-item nav-link" href="/profile">Profile</a>
+                <a class="nav-item nav-link" href="/signout">Sign Out</a>
+            </div>
+        </nav>
+
+        <div class="card mb-5">
+            <img src="{{ url_for('static', filename='images/bg.jpg') }}" class="card-img-top" alt="{{ place.name }}">
+            <div class="card-body">
+                <h2 class="card-title">{{ place.name }}</h2>
+                <p class="card-text"><strong>Location:</strong> {{ place.location }}</p>
+                <p class="card-text">{{ place.description }}</p>
+                <p class="card-text"><strong>Cost:</strong> ${{ place.cost }}</p>
+                <a href="/cart/add/{{ place.id }}" class="btn btn-primary">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
